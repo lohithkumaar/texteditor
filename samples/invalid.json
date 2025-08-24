@@ -1,0 +1,28 @@
+{
+  "name": "Text Tools Invalid JSON Demo",
+  "version": "1.0.0",
+  "description": "This JSON has syntax errors for testing the enhanced error reporting",
+  "author": {
+    "name": "Demo User",
+    "email": "demo@example.com"
+    // Missing comma here - syntax error
+    "invalid_field": "value"
+  },
+  "features": [
+    {
+      "id": 1,
+      "name": "JSON Validation",
+      "enabled": true,
+    }, // Extra comma - syntax error
+    {
+      "id": 2,
+      "name": "Enhanced Error Reporting"
+      "enabled": false // Missing comma - syntax error
+    }
+  ],
+  "settings": {
+    "theme": 'single quotes not allowed', // Single quotes - syntax error
+    "auto_save": True, // Python True instead of JSON true - syntax error
+    "count": 123.45.67 // Invalid number format - syntax error
+  }
+  // Missing closing brace - syntax error
