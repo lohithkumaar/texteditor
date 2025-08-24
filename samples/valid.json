@@ -1,0 +1,54 @@
+{
+  "name": "Text Tools Demo",
+  "version": "1.0.0",
+  "description": "A sample valid JSON file for testing the Text Tools validator",
+  "author": {
+    "name": "Demo User",
+    "email": "demo@example.com",
+    "profile": {
+      "age": 30,
+      "location": "San Francisco",
+      "interests": ["coding", "json", "validation", "text-processing"]
+    }
+  },
+  "features": [
+    {
+      "id": 1,
+      "name": "JSON Validation",
+      "enabled": true,
+      "priority": "high"
+    },
+    {
+      "id": 2,
+      "name": "Schema Validation",
+      "enabled": true,
+      "priority": "medium"
+    },
+    {
+      "id": 3,
+      "name": "JSON Formatting",
+      "enabled": true,
+      "priority": "low"
+    },
+    {
+      "id": 4,
+      "name": "Enhanced Diff Viewer",
+      "enabled": true,
+      "priority": "high"
+    }
+  ],
+  "settings": {
+    "theme": "dark",
+    "auto_save": true,
+    "notifications": {
+      "email": false,
+      "push": true
+    }
+  },
+  "metadata": {
+    "created_at": "2024-01-01T00:00:00Z",
+    "updated_at": "2025-08-24T20:18:00Z",
+    "tags": ["sample", "demo", "valid", "text-tools"],
+    "size_kb": 1.5
+  }
+}
